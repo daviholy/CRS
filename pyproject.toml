@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "seminarka"
+version = "0.1.0"
+description = "seminarni prace"
+authors = ["David Holý <david.holy225@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+lightning = "*"
+pandas = "^2.0.1"
+ipykernel = "^6.23.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
