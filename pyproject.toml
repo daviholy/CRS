@@ -6,11 +6,26 @@ authors = ["David Holý <david.holy225@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "~3.11"
 lightning = "*"
 pandas = "^2.0.1"
 ipykernel = "^6.23.1"
+nltk = "^3.8.1"
+aim = "^3.17.4"
+torchmetrics = "^0.11.4"
+seaborn = "^0.12.2"
+numpy = "*"
+umap-learn = "*"
+plotly-express = "^0.4.1"
+torch = {version = "^2.0.1+cpu", source = "torch_cpu"}
+torchvision = {version = "^0.15.2+cpu", source = "torch_cpu"}
+nbformat = "^5.9.0"
 
+
+[[tool.poetry.source]]
+name = "torch_cpu"
+url = "https://download.pytorch.org/whl/cpu"
+priority = "explicit"
 
 [build-system]
 requires = ["poetry-core"]

@@ -2,3 +2,5 @@ data/dataset/czech_text_document_corpus_v20
 data/dataset/vyber
 .jukit
 __pycache__
+.aim
+.vscode
